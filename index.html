@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pie Charts</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<div style='width: 450px'>
+    <canvas id='chinaChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('chinaChart');
+    var chinaChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2016', '2017', '2018', '2019', '2020',],
+            datasets: [{
+                label: 'Population in China',
+                data: [1414049351, 1421021791, 1427647786, 1433783686, 1439323776],
+                backgroundColor:[
+                    'rgb(252, 3, 3)',
+                    'rgb(252, 3, 3)',
+                    'rgb(252, 3, 3)',
+                    'rgb(252, 3, 3)',
+                    'rgb(252, 3, 3)'
+                ],
+                borderColor: [
+                    'rgb(112, 37, 37)',
+                    'rgb(112, 37, 37)',
+                    'rgb(112, 37, 37)',
+                    'rgb(112, 37, 37)',
+                    'rgb(112, 37, 37)'
+
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+<div style='width: 450px'>
+    <canvas id='indiaChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('indiaChart');
+    var indiaChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2015', '2016', '2017', '2018', '2019',],
+            datasets: [{
+                label: 'Population in India',
+                data: [1310152403, 1324517249, 	1338676785, 1352642280, 1366417754],
+                backgroundColor:[
+                    'rgb(237, 92, 14)',
+                    'rgb(237, 92, 14)',
+                    'rgb(237, 92, 14)',
+                    'rgb(237, 92, 14)',
+                    'rgb(237, 92, 14)'
+                ],
+                borderColor: [
+                    'rgb(112, 63, 37)',
+                    'rgb(112, 63, 37)',
+                    'rgb(112, 63, 37)',
+                    'rgb(112, 63, 37)',
+                    'rgb(112, 63, 37)'
+
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+<div style='width: 450px'>
+    <canvas id='usChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('usChart');
+    var usChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2016', '2017', '2018', '2019', '2020',],
+            datasets: [{
+                label: 'Population in USA',
+                data: [323015995, 325084756, 327096265, 329064917, 331002651],
+                backgroundColor:[
+                    'rgb(255, 205, 0)',
+                    'rgb(255, 205, 0)',
+                    'rgb(255, 205, 0)',
+                    'rgb(255, 205, 0)',
+                    'rgb(255, 205, 0)'
+                ],
+                borderColor: [
+                    'rgb(145, 124, 38)',
+                    'rgb(145, 124, 38)',
+                    'rgb(145, 124, 38)',
+                    'rgb(145, 124, 38)',
+                    'rgb(145, 124, 38)'
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+<div style='width: 450px'>
+    <canvas id='indonesiaChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('indonesiaChart');
+    var indonesiaChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2016', '2017', '2018', '2019', '2020',],
+            datasets: [{
+                label: 'Population in Indonesia',
+                data: [261556381, 264650963, 267670543, 270625568, 273523615],
+                backgroundColor:[
+                    'rgb(82, 138, 222)',
+                    'rgb(82, 138, 222)',
+                    'rgb(82, 138, 222)',
+                    'rgb(82, 138, 222)',
+                    'rgb(82, 138, 222)'
+                ],
+                borderColor: [
+                    'rgb(49, 62, 120)',
+                    'rgb(49, 62, 120)',
+                    'rgb(49, 62, 120)',
+                    'rgb(49, 62, 120)',
+                    'rgb(49, 62, 120)'
+
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+<div style='width: 450px'>
+    <canvas id='pakistanChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('pakistanChart');
+    var pakistanChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2016', '2017', '2018', '2019', '2020',],
+            datasets: [{
+                label: 'Population in Pakistan',
+                data: [203631353, 207906209, 212228286, 216565318, 220892340],
+                backgroundColor:[
+                    'rgb(110, 48, 219)',
+                    'rgb(110, 48, 219)',
+                    'rgb(110, 48, 219)',
+                    'rgb(110, 48, 219)',
+                    'rgb(110, 48, 219)'
+                ],
+                borderColor: [
+                    'rgb(62, 42, 97)',
+                    'rgb(62, 42, 97)',
+                    'rgb(62, 42, 97)',
+                    'rgb(62, 42, 97)',
+                    'rgb(62, 42, 97)'
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+<div style='width: 450px'>
+    <canvas id='leastChart'></canvas>
+</div>
+<script>
+    var ctx = document.getElementById('leastChart');
+    var leastChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2016', '2017', '2018', '2019', '2020',],
+            datasets: [{
+                label: 'Population in Nauru (least populated country)',
+                data: [10475, 10573, 10670, 10756, 10824],
+                backgroundColor:[
+                    'rgb(60, 209, 27)',
+                    'rgb(60, 209, 27)',
+                    'rgb(60, 209, 27)',
+                    'rgb(60, 209, 27)',
+                    'rgb(60, 209, 27)'
+                ],
+                borderColor: [
+                    'rgb(186, 255, 171)',
+                    'rgb(186, 255, 171)',
+                    'rgb(186, 255, 171)',
+                    'rgb(186, 255, 171)',
+                    'rgb(186, 255, 171)'
+                ],
+                borderWidth: 1
+            }]
+        }
+    });
+</script>
+
+</body>
+</html>
